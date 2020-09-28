@@ -14,7 +14,7 @@ namespace _4030
              
              Console.WriteLine();
 
-              String Dogvov = Console.ReadLine();
+             String Dogvov = Console.ReadLine();
              int Dogvovint = Convert.ToInt32(Dogvov);
              Dog minDog = new Dog(Dogvovint);
              minDog.Act();
