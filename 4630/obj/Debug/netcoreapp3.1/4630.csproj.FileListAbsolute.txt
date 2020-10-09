@@ -1,0 +1,13 @@
+/home/joakim/Documents/4630/bin/Debug/netcoreapp3.1/4630
+/home/joakim/Documents/4630/bin/Debug/netcoreapp3.1/4630.deps.json
+/home/joakim/Documents/4630/bin/Debug/netcoreapp3.1/4630.runtimeconfig.json
+/home/joakim/Documents/4630/bin/Debug/netcoreapp3.1/4630.runtimeconfig.dev.json
+/home/joakim/Documents/4630/bin/Debug/netcoreapp3.1/4630.dll
+/home/joakim/Documents/4630/bin/Debug/netcoreapp3.1/4630.pdb
+/home/joakim/Documents/4630/obj/Debug/netcoreapp3.1/4630.csprojAssemblyReference.cache
+/home/joakim/Documents/4630/obj/Debug/netcoreapp3.1/4630.AssemblyInfoInputs.cache
+/home/joakim/Documents/4630/obj/Debug/netcoreapp3.1/4630.AssemblyInfo.cs
+/home/joakim/Documents/4630/obj/Debug/netcoreapp3.1/4630.csproj.CoreCompileInputs.cache
+/home/joakim/Documents/4630/obj/Debug/netcoreapp3.1/4630.dll
+/home/joakim/Documents/4630/obj/Debug/netcoreapp3.1/4630.pdb
+/home/joakim/Documents/4630/obj/Debug/netcoreapp3.1/4630.genruntimeconfig.cache
