@@ -6,6 +6,8 @@ namespace _4630
 
      class Timanstalld : Anstalld
     {
+        private double timlon;
+        private double arbetstimmar;
 
         
     }
