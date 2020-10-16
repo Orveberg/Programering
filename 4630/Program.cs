@@ -5,9 +5,13 @@ namespace _4630
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Test test = new Test();
+            
+            test.Run(test.Anstallda); 
+
         }
     }
 }
