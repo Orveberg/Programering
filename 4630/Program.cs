@@ -12,6 +12,10 @@ namespace _4630
             
             test.Run(test.Anstallda); 
 
+            Userinterface Userinterface = new Userinterface();
+            Userinterface.Run();
+
         }
+        
     }
 }
