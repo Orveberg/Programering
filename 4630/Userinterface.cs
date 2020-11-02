@@ -21,6 +21,52 @@ class Userinterface
             Console.WriteLine("3, Fastanställd");
             Console.WriteLine("4, Timanställd");
 
+            String choice1 = Console.ReadLine();
+
+            if (choice1 == "1")
+            {
+
+            }
+            else if (choice1 == "2")
+            {
+
+            }
+            else if (choice1 == "3")
+            {
+
+            }
+            else if (choice1 == "4")
+            {
+
+            }
+            else
+            {
+                Console.Write("Error");
+
+            }
+        
+
+        }
+        else if (choice == "2")
+        {
+
+        }
+        else if (choice == "3")
+        {
+
+        }
+        else if (choice == "4")
+        {
+
+        }
+        else if (choice == "a")
+        {
+
+        }
+        else
+        {
+            Console.Write("Error");
+
         }
 
         
