@@ -8,6 +8,16 @@ namespace _4630
     {
         protected String fornamn;
         protected String efternamn;
+        public String Namn
+        {
+            get
+
+            {
+                return fornamn + efternamn;
+                
+            }
+            
+        }
 
         abstract public double Beraknalon();
         public override string ToString()
