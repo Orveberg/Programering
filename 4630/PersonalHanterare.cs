@@ -23,7 +23,7 @@ class PersonalHanterare
         Console.WriteLine("a. Avsluta");
         String val = Console.ReadLine();
 
-         if (val == "1")
+         if (val == "3")
            {
                Console.WriteLine("");
                Console.WriteLine("Namn: ");
@@ -34,7 +34,7 @@ class PersonalHanterare
                Panstalld.Add(new Fastanstalld(fornamn, efternamn, Convert.ToDouble(lönen)));
            }
 
-           else if (val =="2")
+           else if (val =="1")
            {
                Console.WriteLine("");
                Console.WriteLine("Namn: ");
@@ -47,7 +47,7 @@ class PersonalHanterare
                Panstalld.Add(new Provisionsanstalld(fornamn, efternamn, Convert.ToDouble(provision), Convert.ToDouble(forsaljning)));
             }
 
-            else if (val =="3")
+            else if (val =="2")
             {
                 Console.WriteLine("");
                 Console.WriteLine("Namn: ");
