@@ -3,18 +3,17 @@ using System.Collections.Generic;
 
 namespace _4630
 {
-    class Program
+ class Program
     {
 
+        
         static void Main(string[] args)
         {
             Test test = new Test();
-            
-            test.Run(test.Anstallda); 
+            test.Run();
 
-            Userinterface Userinterface = new Userinterface();
-            Userinterface.Run();
-
+            UserInterfaces ui = new UserInterfaces();
+            ui.Run();
         }
         
     }

@@ -22,7 +22,7 @@ namespace _4630
         }
         public override string ToString()
         {
-            return base.ToString() + "Månadslön: " + Beraknalon();
+            return base.ToString() + Environment.NewLine + "Månadslön: " + Beraknalon();
 
         }
 

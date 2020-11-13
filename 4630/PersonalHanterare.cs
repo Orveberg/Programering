@@ -27,36 +27,39 @@ class PersonalHanterare
            {
                Console.WriteLine("");
                Console.WriteLine("Namn: ");
-               String namn = Console.ReadLine();
+               String fornamn = Console.ReadLine();
+               String efternamn = Console.ReadLine();
                Console.WriteLine("Månadslön: ");
                String lönen = Console.ReadLine();
-               Panstalld.Add(new Fastanstalld(namn, Convert.ToDouble(lönen)));
+               Panstalld.Add(new Fastanstalld(fornamn, efternamn, Convert.ToDouble(lönen)));
            }
 
            else if (val =="2")
            {
                Console.WriteLine("");
                Console.WriteLine("Namn: ");
-               String namn = Console.ReadLine();
+               String fornamn = Console.ReadLine();
+               String efternamn = Console.ReadLine();
                Console.WriteLine("Provision(%): ");
                String provision = Console.ReadLine();
                Console.WriteLine("Försäljning: ");
                String forsaljning = Console.ReadLine();
-               Panstalld.Add(new Provisionsanstalld(namn, Convert.ToDouble(provision), Convert.ToDouble(forsaljning)));
+               Panstalld.Add(new Provisionsanstalld(fornamn, efternamn, Convert.ToDouble(provision), Convert.ToDouble(forsaljning)));
             }
 
             else if (val =="3")
             {
                 Console.WriteLine("");
                 Console.WriteLine("Namn: ");
-                String namn = Console.ReadLine();
+                String fornamn = Console.ReadLine();
+                String efternamn = Console.ReadLine();
                 Console.WriteLine("Provision: ");
                 String provision = Console.ReadLine();
                 Console.WriteLine("Försäljning: ");
                 String forsaljning = Console.ReadLine();
                 Console.WriteLine("Lön: ");
                 String lönen = Console.ReadLine();
-                Panstalld.Add(new BasOchProvisionsAnstalld(namn, Convert.ToDouble(provision), Convert.ToDouble(forsaljning), Convert.ToDouble(lönen)));
+                Panstalld.Add(new BasOchProvisionsAnstalld(fornamn, efternamn, Convert.ToDouble(provision), Convert.ToDouble(forsaljning), Convert.ToDouble(lönen)));
 
 
 
@@ -66,12 +69,13 @@ class PersonalHanterare
             {
                 Console.WriteLine("");
                 Console.WriteLine("Namn: ");
-                String namn = Console.ReadLine();
+                String fornamn = Console.ReadLine();
+                String efternamn = Console.ReadLine();
                 Console.WriteLine("Timlön: ");
                 String timlon = Console.ReadLine();
                 Console.WriteLine("Arbetade timmar: ");
                 String timmarna = Console.ReadLine();
-                Panstalld.Add(new Timanstalld(namn, Convert.ToDouble(timlon), Convert.ToDouble(timmarna)));
+                Panstalld.Add(new Timanstalld(fornamn, efternamn, Convert.ToDouble(timlon), Convert.ToDouble(timmarna)));
 
             }
 

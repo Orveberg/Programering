@@ -28,7 +28,7 @@ namespace _4630
 
         public override string ToString()
         {
-            return base.ToString() + ", Provision: " + provision + ", försäljning (SEK): " + forsaljning;
+            return base.ToString() +  Environment.NewLine + " Provision: " + provision + " försäljning (SEK): " + forsaljning;
         }
 
 

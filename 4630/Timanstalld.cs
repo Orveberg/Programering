@@ -27,7 +27,7 @@ namespace _4630
 
         public override string ToString()
         {
-            return base.ToString() + ", Timlön: " + timlon + ", Arbetstimmar: " + arbetstimmar + ", Beräknadlön: " + Beraknalon();
+            return base.ToString() + Environment.NewLine + " Timlön: " + timlon + Environment.NewLine + " Arbetstimmar: " + arbetstimmar + Environment.NewLine + " Beräknadlön: " + Beraknalon();
         }
 
 

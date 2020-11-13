@@ -6,14 +6,14 @@ namespace _4630
 
      class Test
     {
-        public List<Anstalld> Anstallda = new List<Anstalld>();
+        public List<Anstalld> anstallda = new List<Anstalld>();
 
-        public void Run(List<Anstalld> list)
+        public void Run()
         {
 
-            Anstallda.Add(new Timanstalld("Joakim ", "Orveberg", 100, 300));
+            anstallda.Add(new Timanstalld("Joakim ", "Orveberg", 100, 300));
 
-              foreach (var anstalld in list)
+              foreach (var anstalld in anstallda)
             {
                 Console.WriteLine(anstalld.ToString());
             }
