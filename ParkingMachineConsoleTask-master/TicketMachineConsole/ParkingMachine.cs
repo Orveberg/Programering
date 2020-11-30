@@ -29,6 +29,72 @@ namespace ParkingMachineConsole
             currentTotal = 0;
             costPerHour = 20;
         }
+
+        public int CurrentTotal
+        {
+            get
+            {
+                return currentTotal;
+            }
+        }
+
+        public int Total
+        {
+            get
+            {
+                return total;
+            }
+        }
+
+        public void InsertMoney(int value)
+        {
+            if (value > 0)
+            {
+                currentTotal = value + currentTotal;
+            }
+        }
        
+        public int Cancel()
+        {
+            int temp = currentTotal;
+            currentTotal = 0;
+            return temp;
+        }
+
+        public String BuyTicket()
+        {
+            int days = CurrentTotal / (costPerHour * 24);
+
+            int hours = CurrentTotal / costPerHour;
+
+            hours = hours % 24;
+
+            int minutes = 60 * CurrentTotal / costPerHour;
+
+            minutes = minutes % 60;
+
+            total += currentTotal;
+            currentTotal = 0;
+
+            return TimeToTicketText(days, hours, minutes);
+        }
+        public void BuyTicket2Day3Hour15Min_TicketText()
+        {
+            throw new NotImplementedException();
+        }
+
+
+        private string TimeToTicketText(int days, int hours, int minutes)
+        {
+            return "Parking ticket valid for:" + Environment.NewLine +
+                days + " days" + Environment.NewLine +
+                hours + " hours" + Environment.NewLine +
+                minutes + " minutes";
+        }
+
+
+
+
+
     }
 }
