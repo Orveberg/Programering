@@ -22,6 +22,20 @@ namespace ParkingMachineConsole
 
         // Cost to park.
         private int costPerHour;
+        public double CostPerHour
+        {
+            get
+            {
+                return CostPerHour;
+            }
+        }
+
+        public ParkingMachine(int costPerH)
+        {
+            total = 0;
+            currentTotal = 0;
+            costPerHour = costPerH;
+        }
 
         public ParkingMachine()
         {
