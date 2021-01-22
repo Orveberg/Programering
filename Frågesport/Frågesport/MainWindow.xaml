@@ -10,8 +10,12 @@
         <TextBlock x:Name="Frågesport" Height="62" Text="Frågesport" FontSize="40px" RenderTransformOrigin="0.491,0.56" Margin="298,0,303,0"/>
         <TextBlock x:Name="Fråga1" Height="84" Text="Vad heter Danmarks Huvudstad?" FontSize="40px"  Margin="118,30,95,0"/>
         <TextBox x:Name="Svar1" TextChanged="Svar1_TextChanged" FontSize="25px" Text="Svar här"  Margin="279,30,303,0" />
-        <Button x:Name="Nästafråga" Height="28" Click="Nästafråga_Click" Content="Nästa" FontSize="20px"  Margin="461,130,201,0"/>
+        <TextBlock Name="feedback" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 
+            <Button x:Name="Nästafråga" Click="Nästafråga_Click" Content="Nästa" FontSize="20px" Width="59" Margin="0,120,100,0"/>
 
+            <Button x:Name="Rätta" Click="Rätta_Click" Content="Rätta" FontSize="20px" Margin="100,120,0,0"/>
+        </StackPanel>
     </StackPanel>
 </Window>

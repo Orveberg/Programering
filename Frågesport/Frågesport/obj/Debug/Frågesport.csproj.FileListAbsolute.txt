@@ -1,0 +1,15 @@
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\bin\Debug\Frågesport.exe.config
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\bin\Debug\Frågesport.exe
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\bin\Debug\Frågesport.pdb
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.csprojAssemblyReference.cache
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\MainWindow.g.cs
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\App.g.cs
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport_MarkupCompile.cache
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport_MarkupCompile.lref
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\MainWindow.baml
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.g.resources
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.Properties.Resources.resources
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.csproj.GenerateResource.cache
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.csproj.CoreCompileInputs.cache
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.exe
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.pdb
