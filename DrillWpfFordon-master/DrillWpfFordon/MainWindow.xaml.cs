@@ -32,6 +32,12 @@ namespace DrillWpfFordon
         {
             // skriv kod här för att spara fordon i lista
 
+
+            vehicles.Add(new Vehicle(RegistrationNumber.Text, Owner.Text));
+            
+)
+
         }
+
     }
 }
