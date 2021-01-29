@@ -32,8 +32,21 @@ namespace DrillWpfHighScore
             // spara resultat i listan scores
             scores.Add(new Result(PlayerName.Text,Convert.ToInt32( Score.Text)));
 
+           
             // sortera listan
             scores.Sort();
+
+            for (int i = 0; i < scores.Count(); i++)
+            {
+                HighScores.Text += Environment.NewLine + scores[i].Name + Environment.NewLine + scores[i].Score + Environment.NewLine; 
+               if( i > scores.Count())
+                {
+                    return;
+                }
+            }
+
+
+
 
             // skriv ut top 5 som 
             // 1. Ada 1060
@@ -44,3 +57,4 @@ namespace DrillWpfHighScore
         }
     }
 }
+
