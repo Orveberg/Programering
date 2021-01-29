@@ -9,8 +9,21 @@ namespace DrillWpfHighScore
     {
         private int score;
         // lägg till name
+        private String name;
 
         // lägg till konstruktor
+        public Result(string name, int score)
+        {
+            this.name = name;
+            this.score = score;
+        }
+       public String Name
+        {
+            get
+            {
+                return name;
+            }
+        }
 
         // property
         public int Score
@@ -22,8 +35,12 @@ namespace DrillWpfHighScore
         }
 
         // lägg till ToString() eller property Name
+       public override String ToString()
+        {
+            return name + " " + score + Environment.NewLine;
 
-        
+        }
+
         public int CompareTo([AllowNull] Result other)
         {
             // Metoden CompareTo behövs för att implementera interfacet IComparable.

@@ -30,6 +30,7 @@ namespace DrillWpfHighScore
         private void SaveScore_Click(object sender, RoutedEventArgs e)
         {
             // spara resultat i listan scores
+            scores.Add(new Result(PlayerName.Text,Convert.ToInt32( Score.Text)));
 
             // sortera listan
             scores.Sort();
