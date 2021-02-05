@@ -13,3 +13,4 @@ C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\
 C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.csproj.CoreCompileInputs.cache
 C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.exe
 C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport.pdb
+C:\Users\Joakim\Documents\GitHub\Programering\Frågesport\Frågesport\obj\Debug\Frågesport_Content.g.cs
